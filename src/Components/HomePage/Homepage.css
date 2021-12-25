@@ -1,0 +1,38 @@
+
+.homepageWrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #fff;
+    padding:3px 20px ;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+#homeItem1heading{
+    font-size: 3rem;
+}
+.homeWrapperItem2{
+    padding: 0 60px;
+    flex-basis: 700px;
+}
+.homeWrapperItem1{
+
+    padding: 60px 60px;
+}
+.homeButton{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    width:max-content;
+    background-color: rgb(255, 55, 29);
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.homeButton:hover{
+    box-shadow: 0 2px 5px black;
+    color: black;
+}
